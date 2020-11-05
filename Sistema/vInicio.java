@@ -11,7 +11,7 @@ public class vInicio extends javax.swing.JFrame {
         limpiar();
         //bloquear();
         this.setResizable(false);
-        setTitle("Vacuna");
+        setTitle("Spa Perritos");
         ((JPanel)getContentPane()).setOpaque(false);
         JLabel fond=new JLabel();
         getLayeredPane().add(fond,JLayeredPane.FRAME_CONTENT_LAYER);
@@ -98,7 +98,7 @@ public class vInicio extends javax.swing.JFrame {
         jPanel1.setForeground(new java.awt.Color(255, 204, 204));
 
         btnTutor.setBackground(new java.awt.Color(204, 204, 255));
-        btnTutor.setText("Tutor");
+        btnTutor.setText("Dueño");
         btnTutor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnTutorActionPerformed(evt);
@@ -106,14 +106,14 @@ public class vInicio extends javax.swing.JFrame {
         });
 
         btnAplic.setBackground(new java.awt.Color(204, 204, 255));
-        btnAplic.setText("Aplicación de vacuna");
+        btnAplic.setText("Aplicación de Servicio");
         btnAplic.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAplicActionPerformed(evt);
             }
         });
 
-        jButton1.setText("Paciente");
+        jButton1.setText("Mascota");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -150,7 +150,7 @@ public class vInicio extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(204, 204, 255));
 
         jLabel1.setFont(new java.awt.Font("Tw Cen MT", 0, 36)); // NOI18N
-        jLabel1.setText("Vacunas");
+        jLabel1.setText("Servicio");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel2.setText("Código");
@@ -262,11 +262,11 @@ public class vInicio extends javax.swing.JFrame {
         );
 
         buttonGroup1.add(Gotas);
-        Gotas.setText("Gotas");
+        Gotas.setText("Estetica");
         Gotas.setContentAreaFilled(false);
 
         buttonGroup1.add(inyec);
-        inyec.setText("Inyectable");
+        inyec.setText("Veterinaria");
         inyec.setContentAreaFilled(false);
 
         lares.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -341,7 +341,7 @@ public class vInicio extends javax.swing.JFrame {
 
         jMenuBar1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        consultaspa.setText("Consultar paciente");
+        consultaspa.setText("Consultar mascota");
         consultaspa.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 consultaspaMouseClicked(evt);
@@ -349,7 +349,7 @@ public class vInicio extends javax.swing.JFrame {
         });
         jMenuBar1.add(consultaspa);
 
-        consultasvacunas.setText("Consultar vacunas");
+        consultasvacunas.setText("Consultar servicio");
         consultasvacunas.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 consultasvacunasMouseClicked(evt);
@@ -357,7 +357,7 @@ public class vInicio extends javax.swing.JFrame {
         });
         jMenuBar1.add(consultasvacunas);
 
-        consulaplivacu.setText("Consultar aplicación de vacunas ");
+        consulaplivacu.setText("Consultar aplicación de servicio");
         consulaplivacu.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 consulaplivacuMouseClicked(evt);
