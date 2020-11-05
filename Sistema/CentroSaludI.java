@@ -8,7 +8,7 @@ public class CentroSaludI extends javax.swing.JFrame {
     public CentroSaludI() {
         initComponents();
         this.setResizable(false);
-        setTitle("SYRINGE VACCINE");
+        setTitle("SPA PERROS");
         ((JPanel)getContentPane()).setOpaque(false);
         ImageIcon uno=new ImageIcon(this.getClass().getResource("../Sistema/Siste1.jpg"));
         JLabel fond=new JLabel();
@@ -16,6 +16,7 @@ public class CentroSaludI extends javax.swing.JFrame {
         getLayeredPane().add(fond,JLayeredPane.FRAME_CONTENT_LAYER);
         fond.setBounds(0,0,uno.getIconWidth(),uno.getIconHeight());
         this.setLocation(400,100);
+        this.setSize(640,320);
         setIconImage(new ImageIcon(getClass().getResource("../Sistema/iconoSis.png")).getImage());
     }
     @SuppressWarnings("unchecked")
@@ -37,11 +38,11 @@ public class CentroSaludI extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 48)); // NOI18N
         jLabel1.setText("Bienvenido a ");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 120, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 40, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sistema/iconoSis.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(241, 238, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 180, -1, -1));
 
         jButton1.setBackground(new java.awt.Color(153, 255, 255));
         jButton1.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
@@ -51,11 +52,11 @@ public class CentroSaludI extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(503, 296, 95, 32));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 280, 95, 32));
 
         jLabel3.setFont(new java.awt.Font("Aparajita", 1, 24)); // NOI18N
         jLabel3.setText("Versión 1.0");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(307, 256, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 150, -1, -1));
 
         jButton2.setBackground(new java.awt.Color(204, 0, 0));
         jButton2.setText("X");
@@ -64,15 +65,15 @@ public class CentroSaludI extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 0, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 0, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
-        jLabel4.setText("29 de noviembre de 2019");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 362, -1, -1));
+        jLabel4.setText("05 de noviembre de 2020");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 290, -1, 20));
 
         jLabel5.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 48)); // NOI18N
-        jLabel5.setText("SYRINGE VACCINE");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, -1, -1));
+        jLabel5.setText("SPA PERROS");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 80, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
