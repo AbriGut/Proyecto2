@@ -106,14 +106,14 @@ public class vInicio extends javax.swing.JFrame {
         });
 
         btnAplic.setBackground(new java.awt.Color(204, 204, 255));
-        btnAplic.setText("Aplicación de vacuna");
+        btnAplic.setText("Aplicación de servicio");
         btnAplic.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAplicActionPerformed(evt);
             }
         });
 
-        jButton1.setText("Paciente");
+        jButton1.setText("Mascota");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -262,11 +262,11 @@ public class vInicio extends javax.swing.JFrame {
         );
 
         buttonGroup1.add(Gotas);
-        Gotas.setText("Gotas");
+        Gotas.setText("Estetica");
         Gotas.setContentAreaFilled(false);
 
         buttonGroup1.add(inyec);
-        inyec.setText("Inyectable");
+        inyec.setText("Veterinaria");
         inyec.setContentAreaFilled(false);
 
         lares.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
