@@ -11,7 +11,7 @@ public class vInicio extends javax.swing.JFrame {
         limpiar();
         //bloquear();
         this.setResizable(false);
-        setTitle("Vacuna");
+        setTitle("SPA PERRITOS");
         ((JPanel)getContentPane()).setOpaque(false);
         JLabel fond=new JLabel();
         getLayeredPane().add(fond,JLayeredPane.FRAME_CONTENT_LAYER);
