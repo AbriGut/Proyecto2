@@ -24,11 +24,7 @@
 #### Colaboradores
 
 | Nombres | Apellidos |
-| ------ | -------- |
 | Jimena | Diaz De Los Santos |
-| ------ | -------- |
 | Abril  | Gutiérrez Núñez |
-| ------ | -------- |
 | Pablo  | Bernal Lazcano |
-| ------ | -------- |
 | Joel Ignacio  | Camacho Camacho |
